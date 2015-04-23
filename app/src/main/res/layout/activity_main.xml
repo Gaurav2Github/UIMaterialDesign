@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.gauravtproject.android.uimaterialdesign.app.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+
+        android:orientation="vertical">
+        
+        <com.gauravtproject.android.uimaterialdesign.app.ui.CardFrameLayout
+            style="@style/Card"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            
+            <ImageView
+                style="@style/CardPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/photo"
+                android:transitionName="photo1"
+                android:src="@drawable/photo1"/>
+            
+            <TextView
+                style="@style/CardTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/show_photo_1"
+                android:text="Pacifica Pier"/>
+
+        </com.gauravtproject.android.uimaterialdesign.app.ui.CardFrameLayout>
+
+        <com.gauravtproject.android.uimaterialdesign.app.ui.CardFrameLayout
+            style="@style/Card"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                style="@style/CardPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/photo"
+                android:transitionName="photo2"
+                android:src="@drawable/photo2"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                style="@style/CardTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/show_photo_2"
+                android:text="Pink Flamingo"/>
+
+        </com.gauravtproject.android.uimaterialdesign.app.ui.CardFrameLayout>
+
+
+        <com.gauravtproject.android.uimaterialdesign.app.ui.CardFrameLayout
+            style="@style/Card"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                style="@style/CardPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/photo"
+                android:transitionName="photo3"
+                android:src="@drawable/photo3"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                style="@style/CardTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/show_photo_3"
+                android:text="Antelope Canyon"/>
+
+        </com.gauravtproject.android.uimaterialdesign.app.ui.CardFrameLayout>
+
+        <com.gauravtproject.android.uimaterialdesign.app.ui.CardFrameLayout
+            style="@style/Card"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                style="@style/CardPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/photo"
+                android:transitionName="photo4"
+                android:src="@drawable/photo4"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                style="@style/CardTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/show_photo_4"
+                android:text="Lone Pine"/>
+
+        </com.gauravtproject.android.uimaterialdesign.app.ui.CardFrameLayout>
+
+    </LinearLayout>
+</ScrollView>
